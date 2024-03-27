@@ -16,6 +16,17 @@
 </canvas>
 
     <canvas id="canvas-2"></canvas>
+    <button id="reloadButton" style="color: white; font-family: verdana; font-weight: bold; padding: 10px; background-color: green;">RESTART</button>
+
+    <script>
+        // Function to reload the page
+        function reloadPage() {
+            location.reload();
+        }
+
+        // Add click event listener to the reload button
+        document.getElementById("reloadButton").addEventListener("click", reloadPage);
+    </script>
     <script src="./js/canvasContext.js"></script>
     <script src="./js/sprites.js"></script>
     <script src="./js/audios.js"></script>
