@@ -1,4 +1,4 @@
-# Flappy Bird Game
+# FLYING AMIRA
 
 Nostalgic flappy bird game where we clear obstacles by making flappy bird fly. 🐤
 
