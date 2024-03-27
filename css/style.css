@@ -28,8 +28,9 @@ canvas{
 }
 
 .instructions h2{
+    color: greenyellow;
     margin-bottom: 1rem;
-    font-family: 'Common Pixel', sans-serif; 
+    font-family: 'verdana', sans-serif; 
 }
 
 ol{
@@ -43,9 +44,7 @@ ol li{
 .highscore{
     margin-top: 5rem;
     color: #1f1f1f;
-    font-family: 'Common Pixel', sans-serif; 
-    margin-left: 350px;
-    position: absolute;
+    font-family: 'impact', sans-serif; 
 }
 
 @media (max-width: 720px) {
