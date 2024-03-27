@@ -16,6 +16,4 @@ Press 'Space' or 'S' to start the game and 'Space' to make flappy bird fly and m
 - Pause and Restart
 - Highscore
 
-### Screenshots
 
-<img src="https://i.imgur.com/TRgc0o8.png" alt="flappy bird game" />
