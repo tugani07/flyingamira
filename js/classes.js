@@ -33,8 +33,8 @@ class Bird{
     constructor(x, y, color){
         this.x = x
         this.y = y
-        this.width = 42
-        this.height = 42
+        this.width = 69
+        this.height = 69
         this.color = color
 
         this.gravity = 0.5
