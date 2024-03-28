@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/common-pixel" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Flying Amira</title>
+ 
+</head>
+<body>
+<div class="instructions">
+        <h2>Instructions</h2>
+        <ol>
+            <li>TAP THE SCREEN</li>
+            <li> <button id="reloadButton" style="color: white; font-family: verdana; font-weight: bold; padding: 10px; background-color: green;">RESTART</button></li>
+            <li>Press 'Space Bar' or 'TAP THE SCREEN' to make AMIRA fly</li>
+            <li>Press 'P' to pause the game</li>
+            <li>Press 'S' or 'Space Bar' again to restart after pausing the game</li>
+            <li>Don't collide in the candies</li>
+        </ol>
+
+        <div class="highscore">
+            Highscore = 0
+        </div>
+
+
+    <script>
+        // Function to reload the page
+        function reloadPage() {
+            location.reload();
+        }
+
+        // Add click event listener to the reload button
+        document.getElementById("reloadButton").addEventListener("click", reloadPage);
+    </script>
+    </div>
+    <canvas id="canvas"></canvas>
+    <canvas id="canvas-2"></canvas>
+    <script src="./js/canvasContext.js"></script>
+    <script src="./js/sprites.js"></script>
+    <script src="./js/audios.js"></script>
+    <script src="./js/classes.js"></script>
+    <script src="./js/functions.js"></script>
+    <script src="./js/game.js"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+</html>

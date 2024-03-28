@@ -4,12 +4,12 @@ class Pipe{
         this.x = x
         this.y = y
 
-        this.width = 90
-        this.height = randomNumber(10, 200)
+        this.width = 100
+        this.height = randomNumber(200, 350)
 
-        this.gapHeight = 320
+        this.gapHeight = 170
         this.color = color
-        this.speed = 3
+        this.speed = 4
 
         this.passed = false
     }
@@ -33,8 +33,8 @@ class Bird{
     constructor(x, y, color){
         this.x = x
         this.y = y
-        this.width = 150
-        this.height = 110
+        this.width = 42
+        this.height = 42
         this.color = color
 
         this.gravity = 0.5

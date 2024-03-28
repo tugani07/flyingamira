@@ -1,6 +1,6 @@
 // background of the canvas
 const backgroundImage = new Image();
-backgroundImage.src = "./assets/images/background-day.png";
+backgroundImage.src = "./assets/images/background-day.jpg";
 backgroundImage.onload = () => {
     context.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
 };
