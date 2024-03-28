@@ -4,10 +4,10 @@ class Pipe{
         this.x = x
         this.y = y
 
-        this.width = 100
+        this.width = 110
         this.height = randomNumber(200, 350)
 
-        this.gapHeight = 170
+        this.gapHeight = 220
         this.color = color
         this.speed = 4
 
